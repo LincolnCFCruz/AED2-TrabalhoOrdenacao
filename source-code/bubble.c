@@ -1,8 +1,7 @@
 #include<stdio.h>
-#include <stdlib.h>
+#include<stdlib.h>
 
-void swap(int *n1, int *n2) 
-{ 
+void swap(int *n1, int *n2) { 
     int temp = *n1; 
     *n1 = *n2; 
     *n2 = temp; 
@@ -19,22 +18,29 @@ void bubbleSort(int *array, int n) {
 } 
 
 void printArray(int *array, int size) { 
-  for (int i=0; i < size; i++){
-    printf("%d\n", array[i]); 
-    } 
+    int i;
+    for (i = 0; i < size; i++){
+        printf("%d ", array[i]);
+    }
+    printf("\n");
 } 
  
 int main() {
-  int i = 0;
-  int n = 5;
+  int n;
+    
+  printf("Entre com o tamanho do vetor: ");
+  scanf("%d", &n);
 
-  int *array = (int*)malloc(sizeof(int)*n);
+  int *vetor = (int*)malloc(sizeof(int)*n);
   
-  for(int i = 0; i < 5; i++) {
-    scanf("%d", &array[i]);
+  for(int i = 0; i < n; i++) {
+    vetor[i] = rand () % 10;
   }
+  printArray(vetor, n); 
 
-  bubbleSort(array, n); 
-  printArray(array, n); 
+  bubbleSort(vetor, n); 
+  
+  printf("\nResolvido \n");
+  printArray(vetor, n); 
   return 0; 
 } 
