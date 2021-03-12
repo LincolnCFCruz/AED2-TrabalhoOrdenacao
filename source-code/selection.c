@@ -28,8 +28,7 @@ void printArray(int *array, int size) {
     }
     printf("\n");
 } 
-  
-// Driver program to test above functions 
+
 int main() {
   int n;
     
