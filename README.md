@@ -1,13 +1,15 @@
 # Trabalho-Ordenacao
 
 ## Membros:
-  -Lincoln
-  -Pedro
-  -Rafaela
-  -Rafael 
+ - Lincoln Corrêa Figueiredo Cruz
+ - Pedro Igor Martins dos Reis
+ - Rafaela Mesquita Gontijo
+ - Rafael Brandão Nunes
   
 ## Codigos de ordenação:
--Insertion Sort
--Selection Sort
--Quick Sort
--Bubble Sort
+- Bubble Sort
+- Heap Sort
+- Insertion Sort
+- Merge Sort
+- Selection Sort
+- Shell Sort
