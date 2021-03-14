@@ -13,3 +13,4 @@
 - Merge Sort
 - Selection Sort
 - Shell Sort
+- Quick Sort
