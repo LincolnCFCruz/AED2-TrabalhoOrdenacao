@@ -20,7 +20,6 @@ void selectionSort(int arr[], int n) {
     } 
 } 
   
-
 void printArray(int *array, int size) { 
     int i;
     for (i = 0; i < size; i++){
