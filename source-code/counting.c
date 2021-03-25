@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 void countingSort(int array[], int size) {
-  int output[10];
-  int count[10];
+  int output[200000];
+  int count[200000];
   int max = array[0];
 
   for (int i = 1; i < size; i++) {
