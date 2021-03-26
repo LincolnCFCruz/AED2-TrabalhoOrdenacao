@@ -14,3 +14,4 @@
 - Selection Sort
 - Shell Sort
 - Quick Sort
+- Counting Sort
